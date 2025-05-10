@@ -20,4 +20,28 @@ This project simulates a multi-customer environment where each customer can rese
 ---
 
 ## 📁 Project Structure
+├── Makefile # Compilation and execution instructions
+├── main.c # Main orchestration logic
+├── main.h
+├── request_handler.c # Thread function logic for handling requests
+├── request_handler.h
+├── utils.c # Logging, time utilities, etc.
+├── utils.h
+├── input.txt # Input file with request group data
+└── log.txt # Auto-generated log file with simulation output
+
+
+
+---
+
+## 🛠️ Build & Run
+
+Ensure you have `gcc` and POSIX thread support installed. Then:
+
+```bash
+# Compile the project
+make
+
+# Run the simulation
+make run
 
