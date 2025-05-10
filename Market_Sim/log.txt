@@ -1,0 +1,18 @@
+[1746890118160] Initial Stock : [ product 0: 5 , product 1: 5 , product 2: 5]
+[1746890118160] Customer 1 tried to add product 1 (qty: 1) to cart | Stock : [ product 0: 5 , product 1: 4 , product 2: 5]  // succeed
+[1746890118160] Customer 1 tried to add product 0 (qty: 2) to cart | Stock : [ product 0: 3 , product 1: 4 , product 2: 5]  // succeed
+[1746890118160] Customer 1 attempted to purchase product 0 (qty: 2) | Stock : [ product 0: 3 , product 1: 4 , product 2: 5]
+[1746890118160] Customer 2 tried to add product 0 (qty: 1) to cart | Stock : [ product 0: 2 , product 1: 4 , product 2: 5]  // succeed
+[1746890118160] Customer 2 attempted to purchase product 0 (qty: 1) | Stock : [ product 0: 2 , product 1: 4 , product 2: 5]
+[1746890123160] Customer 1 purchased product 0 (qty: 2) | Stock : [ product 0: 2 , product 1: 4 , product 2: 5]
+[1746890123160] Customer 2 purchased product 0 (qty: 1) | Stock : [ product 0: 2 , product 1: 4 , product 2: 5]
+[1746890128160] Customer 1 timeout expired. Product 1 (qty: 1) returned to the stock! | Stock : [ product 0: 2 , product 1: 5 , product 2: 5]
+[1746890128160] Customer 3 tried to add product 0 (qty: 3) but only 2 units were available | Stock : [ product 0: 2 , product 1: 5 , product 2: 5]  // failed
+[1746890128161] Customer 3 could NOT reserve product 0 (stock: 2) — retry denied | Stock : [ product 0: 2 , product 1: 5 , product 2: 5]  // failed
+[1746890128161] Customer 4 tried to add product 0 (qty: 1) to cart | Stock : [ product 0: 1 , product 1: 5 , product 2: 5]  // succeed
+[1746890128161] Customer 4 attempted to purchase product 0 (qty: 1) | Stock : [ product 0: 1 , product 1: 5 , product 2: 5]
+[1746890133161] Customer 4 purchased product 0 (qty: 1) | Stock : [ product 0: 1 , product 1: 5 , product 2: 5]
+[1746890133161] Customer 5 tried to add product 2 (qty: 2) to cart | Stock : [ product 0: 1 , product 1: 5 , product 2: 3]  // succeed
+[1746890133161] Customer 5 attempted to purchase product 2 (qty: 2) | Stock : [ product 0: 1 , product 1: 5 , product 2: 3]
+[1746890138162] Customer 5 purchased product 2 (qty: 2) | Stock : [ product 0: 1 , product 1: 5 , product 2: 3]
+[1746890138162] Simulation completed
