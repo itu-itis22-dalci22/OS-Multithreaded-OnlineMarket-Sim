@@ -19,8 +19,8 @@ This project simulates a multi-customer environment where each customer can rese
 
 ## 📁 Project Structure
 
-.
-├── Makefile # Compilation and execution instructions
+
+├── Makefile # Compilation and execution instructions\n
 ├── main.c # Main orchestration logic
 ├── main.h
 ├── request_handler.c # Thread function logic for handling requests
