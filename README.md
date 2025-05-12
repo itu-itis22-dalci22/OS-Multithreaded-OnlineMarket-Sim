@@ -25,7 +25,7 @@ make clean && make
 
 ### Execution
 ```bash
-./main
+./shopping_simulator
 ```
 
 ### Cleanup
